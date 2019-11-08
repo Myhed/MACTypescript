@@ -1,0 +1,24 @@
+{
+  "name": "mac-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test/*.test.ts --passWithNoTests",
+    "jest:init": "jest --init"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "@types/jest-when": "^2.7.0",
+    "@types/lodash": "^4.14.144",
+    "@types/node": "^12.11.1",
+    "jest": "^24.9.0",
+    "jest-when": "^2.7.0",
+    "lodash": "^4.17.15",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
